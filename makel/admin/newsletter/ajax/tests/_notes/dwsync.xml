@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="catchAllFunctionTest.php" local="128212929177031250" remote="128227573800000000" testing="0" />
+<file name="changeEventTest.php" local="128212929181406250" remote="128227573800000000" testing="0" />
+<file name="charEncodingTest.php" local="128212929187500000" remote="128227573800000000" testing="0" />
+<file name="confirmTest.php" local="128212929192187500" remote="128227573800000000" testing="0" />
+<file name="createFormInputTest.php" local="128212929199218750" remote="128227573800000000" testing="0" />
+<file name="customResponseClassTest.php" local="128212929206406250" remote="128227573800000000" testing="0" />
+<file name="disabledFormElementsTest.php" local="128212929212656250" remote="128227573800000000" testing="0" />
+<file name="errorHandlingTest.php" local="128212929224218750" remote="128227573800000000" testing="0" />
+<file name="eventHandlerTest.php" local="128212929229375000" remote="128227573800000000" testing="0" />
+<file name="formSubmissionTest.php" local="128212929234375000" remote="128227574400000000" testing="0" />
+<file name="HTTPStatusTest.php" local="128212929172812500" remote="128227574400000000" testing="0" />
+<file name="includeExternalScriptTest.php" local="128212929239218750" remote="128227574400000000" testing="0" />
+<file name="index.php" local="128212929243437500" remote="128227574400000000" testing="0" />
+<file name="largeResponseTest.php" local="128212929247656250" remote="128227574400000000" testing="0" />
+<file name="myExternalFunction.js" local="128212929252187500" remote="128227574400000000" testing="0" />
+<file name="myExternalFunction.php" local="128212929256406250" remote="128227574400000000" testing="0" />
+<file name="phpWhitespaceTest.php" local="128212929260625000" remote="128227574400000000" testing="0" />
+<file name="preFunctionTest.php" local="128212929265000000" remote="128227574400000000" testing="0" />
+<file name="redirectTest.php" local="128212929269375000" remote="128227574400000000" testing="0" />
+<file name="registerExternalFunctionTest.php" local="128212929275625000" remote="128227574400000000" testing="0" />
+<file name="scriptCallTest.php" local="128212929280468750" remote="128227574400000000" testing="0" />
+<file name="searchReplaceTest.php" local="128212929284843750" remote="128227574400000000" testing="0" />
+<file name="xajaxResponseTest.php" local="128212929289531250" remote="128227574400000000" testing="0" />
+</dwsync>

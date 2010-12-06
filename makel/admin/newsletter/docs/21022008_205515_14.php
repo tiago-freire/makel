@@ -1,0 +1,3 @@
+<a href="http://www.mercadohorse.com.br" target="blank" border="0" /><img border='0' src="http://www.mercadohorse.com.br/gerencia/newsletter/docs//19020820475329.jpg"></a><br /><br /><br /><font color="#999999" size="1" face="Verdana, Arial, Helvetica, sans-serif"> Este e-mail foi enviado de acordo com o "Guia de Boas Maneiras" para e-mail marketing da ABEMD - Associação Brasileira de Marketing Direto.
+Para solicitar o cancelamento do recebimento de nossos informativos, <a href="http://www.mercadohorse.com.br/newslform.php?op=remove&id=$_GET['id']&email=$_GET['email']">clique aqui</a>.</font><br>
+<font color="#FF0000" size="1" face="Verdana, Arial, Helvetica, sans-serif"><b>ATENÇÃO:</b> Favor não responder este e-mail. </font>

@@ -1,0 +1,144 @@
+/* CSS Document */
+
+ /* CSS Reset */
+*{margin:0;padding:0;}
+address,th{font-style:normal;font-weight:normal;}
+table{border-collapse:collapse;border-spacing:0;}
+caption,th{text-align:left;}
+img,fieldset{border:none;}
+ol,ul{list-style:none; font-size:inherit;}
+a{text-decoration:none;}
+div{position:relative;}
+
+
+body {
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size: 11px;
+background-color: #D4D4D4;
+text-align:left;
+}
+
+a {
+	color: #666666;
+}
+
+a:hover {
+	color: #333333;
+	text-decoration: underline;
+}
+
+.link {
+	color: #FF6600;
+}
+
+.link:hover {
+	color: #FF9900;
+	text-decoration: underline;
+}
+
+
+
+/* HEADERS */
+
+h1 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 22px;
+}
+
+h2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-variant:small-caps;
+	color: #67462E;
+}
+
+/* formularios */
+
+input, .formfield {
+	background-color: #F5F5F5;
+	border: 1px solid #999999;
+	padding: 1px;
+	font-size: 11px;
+}
+
+select {
+	min-width: 300px;
+	padding-right: 4px;
+}
+
+.button {
+	background-image: url(../imagens/bg_button.gif);
+	background-repeat: repeat-x;
+	border: 1px solid #999999;
+	padding: 3px;
+}
+
+.fundotable {
+	background-color: #CCCCCC;
+	border-collapse: separate;
+	border: 1px solid #CCCCCC;
+	border-spacing:1px;
+}
+
+.title {
+	background-color: #CCCCCC;
+	padding: 4px;
+}
+.left {
+	text-align: right;
+	background-color: #E5E5E5;
+	padding: 5px;
+}
+.linha1 {
+	text-align: left;
+	background-color: #FFFFFF;
+	padding: 5px;
+}
+
+.right{
+	text-align: left;
+	background-color: #E8E8E8;
+	padding: 5px;
+}
+
+.linha2{
+	text-align: left;
+	background-color: #E8E8E8;
+	padding: 5px;
+}
+
+
+.clear {
+	clear: both;
+}
+
+#browser {
+	background-color: #FFFFFF;
+	padding: 4px;
+	text-align: left;
+}
+
+/* ABAS */
+
+#browser_abas li{
+	display: inline;
+}
+
+#browser_abas li a {
+	padding: 10px;
+	background-color: #999999;
+}
+
+#browser_abas li a.selected {
+	padding: 6px;
+	background-color: #FFFFFF;
+}
+
+.imagem {
+	margin: 4px;
+	padding: 4px;
+	background-color: #E8E8E8;
+	text-align: center;
+	width: 120px;
+	float: left;
+}

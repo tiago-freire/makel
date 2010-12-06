@@ -1,0 +1,308 @@
+/* CSS Document */
+
+ /* CSS Reset */
+*{margin:0;padding:0;}
+address,th{font-style:normal;font-weight:normal;}
+table{border-collapse:collapse;border-spacing:0; margin:0 auto;}
+caption,th{text-align:left;}
+img,fieldset{border:none;}
+ol,ul{list-style:none; font-size:inherit;}
+a{text-decoration:none;}
+div#tits {margin:20px auto; width:100%;}
+h2.titulo {font:bold 18px Helvetica, sans-serif, "Trebuchet MS"; text-align:center; display:block; color:#000;}
+body {font-family:Verdana, Arial, Helvetica, sans-serif; font-size: 11px; background-color: #D4D4D4;background-repeat:repeat-x; text-align:center; }
+a {	color: #666666;}
+a:hover { color: #333333; text-decoration: underline; }
+.link { 	color: #3E5D9E; }
+.link:hover { 	color: #666; text-decoration: underline;}
+
+/* divs principais */
+#corpo {
+	background-image: url(../imagens/corpo_meio.jpg);
+	background-repeat: repeat-y;
+	width: 770px;
+	margin:0 auto;
+	background-color: #F0F0F0;
+	text-align:center;
+	padding:0 5px;
+
+}
+
+#header_topo {
+	background-image: url(../imagens/corpo_topo.jpg);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	width: 780px;
+	height: 15px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+#header {
+	width: 764px;
+	margin:0 auto;
+	height: 122px;
+	background-image: url(../imagens/header.jpg);
+	background-repeat: no-repeat;
+	text-align: left;
+	
+}
+
+#menu {
+	width: 760px;
+	margin:0 auto;
+	text-align: left;
+	padding: 1px;
+	padding-top: 8px;
+	padding-bottom:8px;
+	background-color:#CFCFCF;
+}
+#menu_container {
+	float: left;
+	width: 400px;
+}
+
+#menu li {
+	display: inline;
+}
+
+/*#menu li a{	
+	background: #E9E9E9;
+	border: 1px solid #FFFFFF;
+	padding: 4px;
+	margin: 1px;
+}
+#menu li a:hover {
+	background: #D1D1D1;
+	text-decoration: none;
+}*/
+
+#sauda {
+	float: right;
+	width: 300px;
+	text-align: right;
+}
+
+#msg {
+	margin-top: -50px;
+	float: right;
+	width: 300px;
+	text-align: right
+}
+
+#rodape {
+	background-image: url(../imagens/corpo_fim.jpg);
+	background-repeat: no-repeat;
+	background-color:#BCBCBC;
+	width: 770px;
+	height: 31px;
+	margin:0 auto;
+	text-align: right;
+	padding-right: 10px;
+}
+
+#painel {
+	width: 540px;
+	float: left;
+	padding: 4px;
+}
+
+#direita {
+	width: 200px;
+	float: right;
+	padding: 4px;
+	background-color: #EBE2D6;
+	border: 1px solid #E3D5B9;
+	margin: 6px;
+	text-align: left;
+}
+
+.painel {
+	padding: 6px;
+
+}
+
+
+/* HEADERS */
+
+h1 {
+	font-family: verdana, "Times New Roman", Times, serif;
+	font-size: 18px;
+}
+
+h2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-variant:small-caps;
+	color: #67462E;
+}
+
+/* formularios */
+
+input, .formfield {
+	background-color: #F5F5F5;
+	border: 1px solid #999;
+	padding: 2px;
+	font-size: 11px;
+	margin:3px 0 0 0;
+}
+
+select {
+	/*min-width: 300px;*/
+	padding: 2px;
+	font:11px Tahoma, Verdana, Arial, Helvetica, sans-serif, "Trebuchet MS";
+	margin:3px 0 0 0;
+	background:#f5f5f5;
+	border:1px solid #999;
+}
+
+.button {
+	background-repeat: repeat-x;
+	border: 1px solid #999999;
+	padding: 3px;
+}
+
+.fundotable {
+	background-color: #CCCCCC;
+	border-collapse: separate;
+	border: 1px solid #CCCCCC;
+	border-spacing:1px;
+}
+
+.title {
+	background-color: #CCCCCC;
+	padding: 4px;
+	font-weight:bold;
+	border-bottom:1px solid #999;
+	text-align:left;
+}
+.titlecent {
+	background-color: #CCCCCC;
+	padding: 4px;
+	font-weight:bold;
+	border-bottom:1px solid #999;
+	text-align:center;
+}
+.left {
+	text-align: right;
+	background-color: #E5E5E5;
+	padding: 5px;
+}
+.linha1 {
+	text-align: left;
+	background-color: #FFFFFF;
+	padding: 5px;
+	border-bottom:1px solid #999;
+}
+.linha1 td { padding:5px;}
+.linha2 td { padding:5px;}
+.opcoes {text-align:center; font:bold 11px tahoma; color:#666;}
+.right{
+	text-align: left;
+	background-color: #E8E8E8;
+	padding: 5px;
+}
+
+.linha2{
+	text-align: left;
+	background-color: #eee;
+	padding: 5px;
+	border-bottom:1px solid #999;
+}
+.txtdir {
+	text-align: right;
+	background-color: #ffffff;
+	padding: 1px;
+}
+.txtesq {
+	text-align: left;
+	background-color: #ffffff;
+	padding: 1px;
+}
+.txtcent{
+	text-align: center;
+	background-color: #ffffff;
+	padding: 1px;
+}
+
+.clear {
+	clear: both;
+}
+
+.enq_resultado {
+	background-image:url(../../imagens/bg_barra.jpg);
+	height:14px;
+	color:#000000;
+	margin:0;
+	padding:0;
+}
+
+.opcao {
+	width: 80%;
+	padding: 2px;
+	text-align: left;
+}
+
+.cabecalho{width:98%;height:15px;cursor:pointer;font-size:12px;font-weight:bold;float:left;text-align:left;padding:1%;border-bottom:1px solid #999;}
+.cabecalho .nomeSecao{float:left;width:80%}
+.cabecalho img{float:right}
+
+.ativo { background:#DDD; color:#000; }
+.ativo:hover { background:#CCC;}
+.inativo { background:#999; color:#FFF; } 
+.inativo:hover { background:#777; } 
+.item { padding-bottom:15px; list-style:none; float:left; padding:20px; width:150px; height:100px; border:1px solid #EEE; } 
+.sem_bloco { width:728px; } 
+.item img { padding-bottom:10px; } 
+.item:hover { background-color:#DDD; border:1px #AAA dashed; font-weight:bold; } 
+.item a:hover { text-decoration:none;  } 
+.lista { font-weight:none; width:100%; float:left; margin:0 auto; }
+
+/* file browser */
+
+#quadro_upimagem {
+	padding: 6px;
+	background-color:#FFFFFF;
+	border: 1px solid #D8D8D8;
+}
+
+#quadro_abas li {
+	display: inline;
+}
+
+
+#tabelaSessoes{ background:#EEE;}
+#tabelaSessoes tr td{ width:47px;border:solid 1px #CCC; text-align:left; padding: 10px; }
+#tabelaSessoes tr th{background:#f4f4f4; color:#545454;text-align:center;}
+#tabelaSessoes tr th.tamanho1{width:100px;height:42px;}
+#tabelaSessoes tr th.tamanho2{width:64px;}
+#tabelaSessoes tr td span { display:block; width:auto; padding-left:10px; } 
+#tabelaSessoes tr td span select { width:60px; } 
+
+/* Basic code - don't modify */
+ 
+#nav { display: block; margin: 0; padding: 0; position: relative; }
+#nav li { display: block; list-style: none; margin: 0; padding: 0; float: left; position: relative; }
+#nav a { display: block; }
+#nav ul { display: none; position: absolute; left: 0; margin: 0; padding: 0; }
+* html #nav ul { line-height: 0; } /* IE6 "fix" */
+#nav ul a { zoom: 1; } /* IE6/7 fix */
+#nav ul li { float: none; }
+#nav ul ul { top: 0; }
+    
+/* Essentials - configure this */
+
+#nav ul { width: 130px; }
+#nav ul ul { left: 131px; }
+
+/* Everything else is theming */
+ 
+#nav { background-color: #DDD; height: 24px; }
+#nav *:hover { background-color: #999; color:#FFF; }
+#nav a { border-right: 1px solid #BBB; color: #000; font-size: 12px; padding: 6px; line-height: 1; }
+#nav li.hover a { background-color: #BBB;  }
+#nav ul { top: 25px; }
+#nav ul li a { background-color: #BBB; }
+#nav ul a.hover { background-color: #999; }
+#nav ul a { border-bottom: 1px solid #ddd; border-right: none; }
+/* #nav ul a { border-bottom: none; } - I also needed this for IE6/7 */
