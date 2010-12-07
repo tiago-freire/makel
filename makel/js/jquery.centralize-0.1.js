@@ -1,4 +1,5 @@
 function centralize(selectorPai, selectorFilhos) {
+
 	$(selectorFilhos + ' img').load(function() {
 		var totalWidth = $(selectorPai).width();
 		
@@ -17,6 +18,7 @@ function centralize(selectorPai, selectorFilhos) {
 		var margin = Math.floor((totalWidth - (count * averageWidth)) / (count + 1));
 		
 		$(selectorFilhos).css('margin-left', margin + 'px');
+		
 	}).each(function() {
 		if(this.complete || ($.browser.msie && parseInt($.browser.version) == 6)) {
 			$(this).trigger("load");
