@@ -1,7 +1,7 @@
 Options +FollowSymLinks
 
 RewriteEngine On
-RewriteBase /makel/
+RewriteBase /makel-eclipse/
 
 DirectoryIndex index.html
 DirectoryIndex index.php
@@ -27,6 +27,7 @@ RewriteCond %{REQUEST_FILENAME} !-d
 
 RewriteRule ^([a-zA-Z0-9+,_-]+)/?$ $1.php [L]
 RewriteRule ^([a-zA-Z0-9+,_-]+)/([0-9+]+)/(.*)/?$ $1.php?id=$2&pagina=$2 [L]
+RewriteRule ^([a-zA-Z0-9+,_-]+).do controller/$1.php [L]
 
 <IfModule mod_expires.c> 
     ExpiresActive On 
@@ -40,9 +41,6 @@ RewriteRule ^([a-zA-Z0-9+,_-]+)/([0-9+]+)/(.*)/?$ $1.php?id=$2&pagina=$2 [L]
    	ExpiresByType application/x-javascript "access plus 1 month"
    	ExpiresByType application/x-shockwave-flash "access plus 1 month"
    	ExpiresByType text/ecmascript "access plus 1 month"
-   	#ExpiresByType text/php "access plus 1 hour" 
-  
-	#Remover ETag
    	FileETag none
 </IfModule>
 

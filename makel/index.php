@@ -68,14 +68,14 @@
 			<? include("includes/top.php"); ?>
 			<div id="content">
 				<div id="painel">
-					<a href="produtos" title="Coleção Smart">
-						<img src="images/colecao_smart.jpg" alt="Coleção Smart" />
+					<a title="Danna">
+						<img src="images/painel-danna-1.jpg" alt="Danna" />
 					</a>
-					<a class="none" href="produtos" title="Coleção Boss">
-						<img src="images/colecao_boss.jpg" alt="Coleção Boss" />
+					<a class="none" title="Danna">
+						<img src="images/painel-danna-2.jpg" alt="Danna" />
 					</a>
-					<a class="none" href="produtos" title="Coleção Facility">
-						<img src="images/colecao_facility.jpg" alt="Coleção Facility" />
+					<a class="none" title="Danna">
+						<img src="images/painel-danna-3.jpg" alt="Danna" />
 					</a>
 				</div>
 				<p>

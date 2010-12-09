@@ -4,6 +4,7 @@ define("SITE_NAME", "Makel - Móveis para Escritório");
 define("SITE_SMALL_NAME", "Makel");
 define("SITE_DESCRIPTION", "");
 define("SITE_KEYWORDS", "");
+define("SITE_CONTATO", "contato@makelmoveis.com, administrativo@makelmoveis.com");
 
 if($_SERVER['HTTP_HOST'] == 'servidor' || $_SERVER['HTTP_HOST'] == 'localhost' || $_SERVER['HTTP_HOST'] == '127.0.0.1') {
 	$BANCO = array('bd_host' => 'localhost', 'bd_login' => 'root', 'bd_pass' => '', 'bd_banco' => 'makel');

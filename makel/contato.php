@@ -1,5 +1,10 @@
 <? $pageTitle = "Contato"; ?>
 <? include("includes/header.php"); ?>
+	<script type="text/javascript">
+		$(function() {
+			$("#telefone").mask("(99) 9999-9999");
+		});
+	</script>
 	<body>
 		<div id="geral">
 			<? include("includes/top.php"); ?>

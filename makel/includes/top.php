@@ -10,7 +10,7 @@ $page = str_replace('.php', '', $fileNameArray[sizeof($fileNameArray) - 1]);
 		<li><a href="index" class="<?= $page == "index" ? "selected" : "" ?>" title="Página inicial">Página inicial</a></li>
 		<li><a href="quem-somos" class="<?= $page == "quem-somos" ? "selected" : "" ?>" title="Quem somos">Quem somos</a></li>
 		<li><a href="localizacao" class="<?= $page == "localizacao" ? "selected" : "" ?>" title="Localização">Localização</a></li>
-		<li><a href="produtos" class="<?= $page == "produtos" || $page == "produto" ? "selected" : "" ?>" title="Produtos">Produtos</a></li>
+		<?/*li><a href="produtos" class="<?= $page == "produtos" || $page == "produto" ? "selected" : "" ?>" title="Produtos">Produtos</a></li*/?>
 		<li><a href="contato" class="<?= $page == "contato" ? "selected" : "" ?>" title="Contato">Contato</a></li>
 	</ul>
 </div>
