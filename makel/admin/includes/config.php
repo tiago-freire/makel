@@ -9,7 +9,7 @@ define("SITE_CONTATO", "contato@makelmoveis.com, administrativo@makelmoveis.com"
 if($_SERVER['HTTP_HOST'] == 'servidor' || $_SERVER['HTTP_HOST'] == 'localhost' || $_SERVER['HTTP_HOST'] == '127.0.0.1') {
 	$BANCO = array('bd_host' => 'localhost', 'bd_login' => 'root', 'bd_pass' => '', 'bd_banco' => 'makel');
 } else {
-	$BANCO = array('bd_host' => 'localhost','bd_login' => 'makelmov_makel', 'bd_pass' => 'j~)*RQ9jvnKd', 'bd_banco' => 'makelmov_makel');
+	$BANCO = array('bd_host' => 'localhost','bd_login' => 'makelmov_makel', 'bd_pass' => 'dpxFtXXVck', 'bd_banco' => 'makelmov_makel');
 }
 
 /* Módulos ativos */
