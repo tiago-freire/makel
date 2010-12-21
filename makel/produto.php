@@ -3,11 +3,11 @@
 	<body>
 		<script type="text/javascript">
 			$(document).ready(function() {
-				centralize('#content ul', '#content ul li');
+				$('#content ul li').centralize();
 			});
 			
 			$(window).resize(function() {
-				centralize('#content ul', '#content ul li');
+				$('#content ul li').centralize();
 			});
 		</script>
 		<div id="geral">

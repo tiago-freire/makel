@@ -1,7 +1,7 @@
 Options +FollowSymLinks
 
 RewriteEngine On
-RewriteBase /makel-eclipse/
+RewriteBase /makel/
 
 DirectoryIndex index.html
 DirectoryIndex index.php

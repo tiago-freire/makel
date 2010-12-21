@@ -56,11 +56,11 @@
 		});
 		
 		$(document).ready(function() {
-			centralize('#parceiros', '#parceiros a');
+			$('#parceiros a').centralize();
 		});
 		
 		$(window).resize(function() {
-			centralize('#parceiros', '#parceiros a');
+			$('#parceiros a').centralize();
 		});
 	</script>
 	<body>
